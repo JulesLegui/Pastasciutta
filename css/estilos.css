@@ -1,0 +1,129 @@
+body {
+    font-family: 'Marcellus', serif;
+}
+
+/*----- NAV BAR ------*/
+
+a{
+    color: black;
+}
+a:hover {
+    color: black;
+    font-weight: 600;
+
+}
+nav {
+    background-color: white;    
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: 600;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.button a{
+    color: #524633;
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button a:hover {
+    font-weight: 600;
+}
+
+/*----- SLIDER ------*/
+
+.intro1{
+    background-color: rgb(182, 179, 179);
+    color: rgb(43, 43, 43);
+}
+
+/*----- NOSOTROS ------*/
+
+.section-title h3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .section-title h3::before {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 4px 10px;
+  }
+
+  .section-title h2 {
+    color: #524633;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    margin: 0;
+  }
+
+
+/*----- PRODUCTOS ------*/
+
+.menu-img {
+    border-radius: 50%;
+    float: left;
+    width: 120px;
+}
+
+.menu-nombre {
+    margin-left: 150px;
+    padding-bottom: 1rem;
+}
+
+.menu-descripcion {
+    font-size: 0.8rem;
+    margin-left: 150px;
+}
+
+h3 {
+    color: #524633;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+/*----- ESPECIALES ------*/
+
+  .nav-tabs .nav-link {
+    color: #524633;
+    border-right: 2px solid #524633;
+  }
+
+
+/*----- FORMULARIO ------*/
+#mensaje-error p{
+    color: #830000;
+    font-family: "Poppins", sans-serif;
+}
+#suscribite {
+    background-color: #F5EDE2;
+}
